@@ -32,13 +32,15 @@
                 app:layout_collapseMode="pin">
 
                 <TextView
+                    android:id="@+id/toolbarTitle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="Feedback app"
                     android:textColor="@color/white"
                     android:textStyle="bold"
-                    android:visibility="invisible" />
+                    android:textSize="25sp"
+                    android:visibility="gone" />
 
             </androidx.appcompat.widget.Toolbar>
 
